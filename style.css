@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+    background-color: #ecbc76;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    /* width: 50%; */
+    /* justify-content: center;
+    align-items: center; */
+    background-color: #fffef9;
+    flex-grow: 2;
+    padding: 68px;
+}
+
+.signUp-box {
+    padding: 58px 46px 48px 46px;
+    background-color: white;
+    box-shadow: 0px 4px 35px 0px #00000014;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.sign-up {
+
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 83px;
+
+}
+
+input {
+    height: 19.08px;
+    padding: 20px 26px 20px;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    border: 1px solid #808080;
+}
+
+#username {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+
+#password {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.forgot {
+
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 15px;
+    text-align: right;
+    color: #AD3113;
+
+}
+
+button {
+    background: #E48700;
+    box-shadow: 0px 4px 19px 0px #7793414D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color: white;
+    margin-bottom: 4px;
+}
+
+.noAccount {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color: #8D8D8D;
+}
+
+span {
+    color: #AD3113;
+}
+
+.continue {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #B5B5B5;
+    text-align: center;
+}
+
+.social {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
